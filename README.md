@@ -20,6 +20,6 @@ And then execute:
 
     $ bundle
 
-## Special cases
+## Layouts
 
-if you're on a subdomain you should set the path to https://sibr.dev. otherwise all the urls will be wrong :)
+- use *fullpath* if you need to include https://sibr.dev for whatever reason, otherwise use *default*
