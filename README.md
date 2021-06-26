@@ -19,3 +19,7 @@ theme: sibr-jekyll-theme
 And then execute:
 
     $ bundle
+
+## Special cases
+
+if you're on a subdomain you should set the path to https://sibr.dev. otherwise all the urls will be wrong :)
