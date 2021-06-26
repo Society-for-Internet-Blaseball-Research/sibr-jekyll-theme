@@ -1,19 +1,21 @@
 # sibr-jekyll-theme
 
-This gem is not published to rubygems, so you will need to include the git path in your gemfile.
+This gem is not published to rubygems, so you will need to use jekyll-remote-theme.
 
 ## Installation
 
 Add this line to your Jekyll site's `Gemfile`:
 
 ```ruby
-gem "sibr-jekyll-theme", git: 'https://github.com/Society-for-Internet-Blaseball-Research/sibr-jekyll-theme'
+gem "jekyll-remote-theme"
 ```
 
 And add this line to your Jekyll site's `_config.yml`:
 
 ```yaml
-theme: sibr-jekyll-theme
+plugins:
+  - jekyll-remote-theme
+remote_theme: Society-for-Internet-Blaseball-Research/sibr-jekyll-theme
 ```
 
 And then execute:
