@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "sibr-jekyll-theme"
-  spec.version       = "0.1.0"
+  spec.version       = "0.1.1"
   spec.authors       = ["metermaid"]
   spec.email         = ["718216+metermaid@users.noreply.github.com"]
 
